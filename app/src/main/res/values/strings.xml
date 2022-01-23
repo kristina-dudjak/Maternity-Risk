@@ -4,6 +4,13 @@
     <string name="title_activity_history">History</string>
     <string name="title_activity_statistics">Statistics</string>
 
+    <string name="text_age">AGE:</string>
+    <string name="text_systolicBP">SYSTOLIC BP:</string>
+    <string name="text_diastolicBP">DIASTOLIC BP:</string>
+    <string name="text_BS">BLOOD SUGAR:</string>
+    <string name="text_heartRate">HEART RATE:</string>
+    <string name="btn_predict">PREDICT RISK</string>
+
 
     <!--
     This string is used for square devices and overridden by hello_world in
