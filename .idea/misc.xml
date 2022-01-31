@@ -4,7 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/KristinaPC/Stuff/Programming/MaternityRisk/app/src/main/res/layout/activity_entry.xml" value="0.264" />
+        <entry key="..\:/Users/KristinaPC/Stuff/Programming/MaternityRisk/app/src/main/res/layout/activity_history.xml" value="0.10511651469098278" />
         <entry key="..\:/Users/KristinaPC/Stuff/Programming/MaternityRisk/app/src/main/res/layout/activity_main.xml" value="0.1068840579710145" />
+        <entry key="..\:/Users/KristinaPC/Stuff/Programming/MaternityRisk/app/src/main/res/layout/activity_prediction.xml" value="0.20625" />
+        <entry key="..\:/Users/KristinaPC/Stuff/Programming/MaternityRisk/app/src/main/res/layout/activity_statistics.xml" value="0.1160081053698075" />
+        <entry key="..\:/Users/KristinaPC/Stuff/Programming/MaternityRisk/app/src/main/res/layout/fragment_custom_dialog.xml" value="0.21458333333333332" />
         <entry key="..\:/Users/KristinaPC/Stuff/Programming/MaternityRisk/app/src/main/res/layout/popup_prediction.xml" value="0.20052083333333334" />
       </map>
     </option>
