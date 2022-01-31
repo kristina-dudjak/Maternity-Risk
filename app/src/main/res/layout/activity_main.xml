@@ -4,35 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_margin="@dimen/fab_margin"
+    tools:context=".activities.MainActivity">
+
+    <ImageView
+        android:id="@+id/img_pregnancy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pregnancy"
+        android:layout_margin="@dimen/fab_margin"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/img_pregnancy_description"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <Button
         android:id="@+id/entry"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/title_activity_entry"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="@dimen/fab_margin"
+        app:layout_constraintTop_toBottomOf="@id/img_pregnancy"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         />
-    <Button
-        android:id="@+id/history"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/title_activity_history"
-        app:layout_constraintTop_toBottomOf="@id/entry"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        />
-    <Button
-        android:id="@+id/statistics"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/title_activity_statistics"
-        app:layout_constraintTop_toBottomOf="@id/history"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

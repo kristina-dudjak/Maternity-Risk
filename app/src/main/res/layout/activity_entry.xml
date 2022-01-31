@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="@dimen/fab_margin"
-    tools:context=".EntryActivity">
+    tools:context=".activities.EntryActivity">
 
 
     <TextView
@@ -19,12 +19,14 @@
 
     <EditText
         android:id="@+id/edit_age"
+        android:importantForAutofill="no"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="@id/text_age"
         app:layout_constraintTop_toBottomOf="@id/text_age"
         android:layout_margin="@dimen/fab_margin"
-        android:inputType="number" />
+        android:inputType="number"
+        android:hint="@string/hint_age"/>
 
     <TextView
         android:id="@+id/text_systolicBP"
@@ -37,12 +39,14 @@
 
     <EditText
         android:id="@+id/edit_systolicBP"
+        android:importantForAutofill="no"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="@id/text_systolicBP"
         app:layout_constraintTop_toBottomOf="@id/text_systolicBP"
         android:layout_margin="@dimen/fab_margin"
-        android:inputType="number" />
+        android:inputType="number"
+        android:hint="@string/hint_sysBP"/>
 
     <TextView
         android:id="@+id/text_diastolicBP"
@@ -55,12 +59,14 @@
 
     <EditText
         android:id="@+id/edit_diastolicBP"
+        android:importantForAutofill="no"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="@id/text_systolicBP"
         app:layout_constraintTop_toBottomOf="@id/text_diastolicBP"
         android:layout_margin="@dimen/fab_margin"
-        android:inputType="number" />
+        android:inputType="number"
+        android:hint="@string/hint_disBP"/>
 
     <TextView
         android:id="@+id/text_BS"
@@ -73,32 +79,58 @@
 
     <EditText
         android:id="@+id/edit_BS"
+        android:importantForAutofill="no"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="@id/text_systolicBP"
         app:layout_constraintTop_toBottomOf="@id/text_BS"
         android:layout_margin="@dimen/fab_margin"
-        android:inputType="number" />
+        android:inputType="number"
+        android:hint="@string/hint_bs"/>
+
+    <TextView
+        android:id="@+id/text_bodyTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_bodyTemp"
+        app:layout_constraintTop_toBottomOf="@id/edit_BS"
+        android:layout_margin="@dimen/fab_margin"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_bodyTemp"
+        android:importantForAutofill="no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="@id/text_systolicBP"
+        app:layout_constraintTop_toBottomOf="@id/text_bodyTemp"
+        android:layout_margin="@dimen/fab_margin"
+        android:inputType="number"
+        android:hint="@string/hint_bodyTemp"/>
 
     <TextView
         android:id="@+id/text_heartRate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_heartRate"
-        app:layout_constraintTop_toBottomOf="@id/edit_BS"
+        app:layout_constraintTop_toBottomOf="@id/edit_bodyTemp"
         android:layout_margin="@dimen/fab_margin"
         app:layout_constraintLeft_toLeftOf="parent" />
 
     <EditText
         android:id="@+id/edit_heartRate"
+        android:importantForAutofill="no"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/fab_margin"
         app:layout_constraintLeft_toLeftOf="@id/text_systolicBP"
         app:layout_constraintTop_toBottomOf="@id/text_heartRate"
-        android:inputType="number" />
+        android:inputType="number"
+        android:hint="@string/hint_heartRate"/>
 
     <Button
+        android:id="@+id/btn_predict"
+        android:importantForAutofill="no"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/fab_margin"
@@ -106,6 +138,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/edit_heartRate"
-        android:text="@string/btn_predict" />
+        android:text="@string/btn_predict"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

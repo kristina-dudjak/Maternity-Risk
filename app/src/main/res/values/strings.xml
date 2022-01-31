@@ -8,8 +8,26 @@
     <string name="text_systolicBP">SYSTOLIC BP:</string>
     <string name="text_diastolicBP">DIASTOLIC BP:</string>
     <string name="text_BS">BLOOD SUGAR:</string>
+    <string name="text_bodyTemp">BODY TEMP:</string>
     <string name="text_heartRate">HEART RATE:</string>
     <string name="btn_predict">PREDICT RISK</string>
+
+    <string name="text_highRisk">High risk probability: %1$s</string>
+    <string name="text_lowRisk">Low risk probability: %1$s</string>
+    <string name="text_midRisk">Mid risk probability: %1$s</string>
+    <string name="text_risk">Risk: </string>
+
+    <string name="img_btn_description">GO BACK</string>
+    <string name="img_pregnancy_description">Pregnant woman image</string>
+
+    <string name="hint_age">e.g. 32</string>
+    <string name="hint_sysBP">e.g. 120</string>
+    <string name="hint_disBP">e.g. 90</string>
+    <string name="hint_bs">e.g. 6.9</string>
+    <string name="hint_bodyTemp">e.g. 98</string>
+    <string name="hint_heartRate">e.g. 70</string>
+
+
 
 
     <!--
