@@ -1,10 +1,10 @@
-package com.example.maternityrisk
+package com.example.maternityrisk.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
+import com.example.maternityrisk.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,14 +13,6 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.entry).setOnClickListener {
             val intent = Intent(this, EntryActivity::class.java)
-            startActivity(intent)
-        }
-        findViewById<Button>(R.id.history).setOnClickListener {
-            val intent = Intent(this, HistoryActivity::class.java)
-            startActivity(intent)
-        }
-        findViewById<Button>(R.id.statistics).setOnClickListener {
-            val intent = Intent(this, StatisticsActivity::class.java)
             startActivity(intent)
         }
     }
